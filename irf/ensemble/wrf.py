@@ -1,6 +1,6 @@
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.base import clone
+from ..ensemble._forest import RandomForestClassifier
+from ..ensemble._forest import RandomForestRegressor
+from sklearn.ensemble._base import clone
 from abc import ABCMeta, abstractmethod
 from ..tree.tree import (WeightedDecisionTreeClassifier, 
                          WeightedDecisionTreeRegressor)
